@@ -33,7 +33,7 @@ step:
 ```bash
 ssh ec2-user@$(terraform output ip)
 cd /usr/ports/sysutils/packer
-su -c "make clean install"
+su root -c "make clean install"
 ```
 
 And this will succeed.
