@@ -1,5 +1,6 @@
 variable "profile" {
   description = "The AWS profile for getting the access code and secret key."
+  default     = "default"
 }
 
 variable "region" {
