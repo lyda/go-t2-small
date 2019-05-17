@@ -9,8 +9,13 @@ variable "region" {
 }
 
 variable "availability_zone" {
-  description = "The availability zone"
+  description = "The availability zone."
   default     = "eu-west-1b"
+}
+
+variable "instance_type" {
+  description = "The instance type."
+  default     = "t2.small"
 }
 
 variable "ami" {

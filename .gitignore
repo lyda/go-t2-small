@@ -2,4 +2,4 @@
 plan.out
 terraform.tfstate
 terraform.tfstate.backup
-.terraform
+.terraform*

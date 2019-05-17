@@ -33,7 +33,7 @@ resource "aws_security_group" "gobug" {
 }
 
 resource "aws_instance" "gobug" {
-  instance_type     = "t2.small"
+  instance_type     = "${var.instance_type}"
   availability_zone = "${var.availability_zone}"
 
   ami = "${var.ami}"
